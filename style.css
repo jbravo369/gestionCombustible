@@ -1,69 +1,106 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: helvetica;
+}
+
 body{
-  padding: 20px;
+	min-height: 90vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  background-color: #CFCFDB;
+  overflow: hidden;
 }
 
-.login-form {
-  max-width: 400px;
-  height: 430px;
-  margin: auto;
-  padding: 30px 20px;
-  background-color: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0px 0px 20px #cccccc;
-  text-align: center;
+/* Tamaño Iconos */
+
+.loginIcons{
+	height: 25px;
+	width: 25px;
+	position: absolute;
 }
 
-.form-title {
-  font-size: 32px;
-  font-weight: bold;
-  margin-bottom: 30px;
-  color: #000000;
+.container{
+	max-width: 300px;
+	width: 100%;
+	height: 400px;
+	background: white;
+	padding: 40px 30px;
+	box-shadow: 5px 5px 10px dimgray, -5px -5px 10px dimgray;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 	20px;
 }
 
-.form-group {
-  margin-bottom: 15px;
+.title{
+	color: black;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
-.form-group label {
-  display: block;
-  font-size: 14px;
-  margin-bottom: 5px;
-  color: #8e8e8e;
+
+.botonForm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
 }
 
-.form-group input {
-  width: 90%;
-  padding: 15px;
-  font-size: 16px;
-  border: none;
-  border-radius: 3px;
-  background-color: #fafafa;
+.botonForm input{
+	height: 40px;
+	width: 100%;
+	background-color: #151A3F;
+	color: white;
+	border-radius: 10px;
+	border: solid white;
+
 }
 
-button[type="submit"] {
-  display: block;
-  margin: auto;
-  padding: 10px 20px;
-  font-size: 16px;
-  font-weight: bold;
-  border: none;
-  border-radius: 5px;
-  background-color: #3897f0;
-  color: #ffffff;
-  cursor: pointer;
-  transition: background-color 0.2s;
-  text-transform: uppercase;
+.botonForm input:hover{
+	background-color: #08B483;
+	transition: 0.5s;
+	font: bold;
 }
 
-button[type="submit"]:hover {
-  background-color: #38a3f0;
+.container .form{
+	height: 100%;
+	width: 100%;
 }
 
-@media (max-width: 500px) {
-  .login-form {
-    max-width: 250px;
-  }
+.input-box{
+	height: 40px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	margin: 10px 0;
 }
+
+.input-box	input{
+	height: 100%;
+	width: 100%;
+	outline: none;
+	border: none;
+	padding: 0 10px;
+	font-size: 	15px;
+	border-bottom: 1.5px solid white;
+	padding-left: 35px;
+	background-color: white;
+	color: white;
+}
+
+.input-box input:focus, .input-box input:valid {
+  border-bottom: 2px solid #08B483;
+}
+
+
+
+
 
 
 
