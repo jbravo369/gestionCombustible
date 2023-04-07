@@ -1,9 +1,10 @@
 body{
-  padding: 30px;
+  padding: 20px;
 }
 
 .login-form {
   max-width: 400px;
+  height: 430px;
   margin: auto;
   padding: 30px 20px;
   background-color: #ffffff;
@@ -63,7 +64,6 @@ button[type="submit"]:hover {
     max-width: 250px;
   }
 }
-
 
 
 
