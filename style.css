@@ -10,7 +10,7 @@ body{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-  background-color: #CFCFDB;
+  background-color: #E4E9F7;
   overflow: hidden;
 }
 
@@ -99,6 +99,9 @@ body{
 .input-box input:focus, .input-box input:valid {
   border-bottom: 2px solid #08B483;
 }
+
+
+
 
 
 
